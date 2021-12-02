@@ -1,0 +1,108 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+
+int main() {
+
+    int Dia = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31;
+    int Mes = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; 
+    
+    cout << "Dame el dia de nacimiento" << endl;
+    cin >> Dia;
+    cout << "Dame el valor del mes de nacimiento" << endl;
+    cin >> Mes;
+
+    switch (Mes) {
+
+    case 1: {if ((Dia>=21&&Mes==3)||(Dia<=19&&Mes==4)) 
+         cout << "Querido" << "Aries" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Empezaras a abrirte camino para cruzar fronteras y expandirte a nuevos territorios" << endl; break; 
+         cout << "13 de Diciembre: 3 semanas para poner atencion en tus planes de carrera a largo plazo" << endl; break;
+         cout << "18 de Diciembre: Es momento de terminar con un acuerdo, contrato o responsabilidad con la cual ya no te sientas comodo" << endl; break;
+         cout << "21 de Diciembre: Debes preparar un final de año nuevo en donde tu atencion es para tu carrera, logros y planes a largo plazo con tu pareja" << endl; break;}
+
+    case 2: {if ((Dia>=20&&Mes==4)||(Dia<=20&&Mes==5)) 
+         cout << "Querido" << "Tauro" << Dia << Mes << endl; break;
+         cout << "3 de Diciembre: Inicio de un nuevo proceso de sanacion y alquimia" << endl; break;
+         cout << "10 de Diciembre: Presta atencion a lo que recibes y descubres de las personas en tu medio social, laboral y personal" << endl; break;
+         cout << "13 de Diciembre: Presta atencion a todas las platicas y noticias que empiezan a transformar tus creencias mas arraigadas" << endl; break;
+         cout << "El ciclo de Venus retro sera el encargado de profundizar esta reflexion y llevarte a buscar una conexion mas profunda con tu pareja" << endl; break;}
+
+    case 3: {if ((Dia>=21&&Mes==5)||(Dia<=21&&Mes==6)) 
+         cout << "Querido" << "Geminis" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Manifestaras una nueva relacion, pareja, etapa o compromiso" << endl; break;
+         cout << "10 de Diciembre:debes de vivir prestando mucha atencion a las platicas, noticias y hasta descubrimientos que ocurran alrededor de tu lugar de trabajo" << endl; break;
+         cout << "13 de Diciembre: Ver temas que le hace contrapeso a tu capacidad de renacer, reinventarte y transformar tu realidad" << endl; break;
+         cout << "18 de Diciembre: Momento para finalizar proyectos, una etapa de vida o una relacion que ya no va con quien eres" << endl; break;}
+
+    case 4: {if ((Dia>=22&&Mes==6)||(Dia<=22&&Mes==7)) 
+         cout << "Querido" << "Cancer" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Se abre un camino para que hagas un cambio de trabajo, estilo de vida o proyecto laboral" << endl; break;
+         cout << "13 de Diciembre: Tu historia en pareja, tus ganas de estar en pareja , empiezan a ser muy notorias" << endl; break;
+         cout << "19 de Diciembre: Vas a empezar a retrogradar sobre tu zona de pareja y relaciones formales" << endl; break;
+         cout << "26 de Diciembre: Vas a sentir la necesidad de buscar un tiempo a solas en el que puedas analizar una propuesta o un proyecto" << endl; break;}
+
+    case 5: {if ((Dia>=23&&Mes==7)||(Dia<=22&&Mes==8)) 
+         cout << "Querido" << "Leo" << Dia << Mes << endl; break;
+         cout << "10 de Diciembre: Historias, relaciones, proyectos y oportunidades que empiezan a germinar y que se desarrollaran con fuerza a lo largo del proximo año" << endl; break;
+         cout << "13 de Diciembre: Analizaras muy bien si eres valorado en tu lugar de trabajo o no" << endl; break;
+         cout << "19 de Diciembre: Analizaras las decisiones que tomaste este año para transformar tu mundo laboral y cotidiano" << endl; break;
+         cout << "La última semana del año te favorece para perdonar y dejar ir todas las palabras y comentarios que te han lastimado en fechas recientes" << endl; break;}
+
+    case 6: {if ((Dia>=23&&Mes==8)||(Dia<=22&&Mes==9)) 
+         cout << "Querido" << "Virgo" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Tu energia se irá preparando para manifestar un nuevo momento en tu hogar o con tu familia" << endl; break;
+         cout << "10 de Diciembre: Atenta a quién conoces, quien regresa, en quien piensas y quien se hace presente cerca de esas fechas" << endl; break;
+         cout << "13 de Diciembre: Vas a empezar a sentir ganas de actuar para manifestar cambios" << endl; break;
+         cout << "19 de Diciembre: Te llevara a poner en la balanza tu relacion para descubrir si hay un lazo emocional fuerte entre ustedes" << endl; break;}
+
+    case 7: {if ((Dia>=23&&Mes==9)||(Dia<=22&&Mes==10)) 
+         cout << "Querido" << "Libra" << Dia << Mes << endl; break;
+         cout << "10 de Diciembre: Debes de prestar mucha atencion a las circunstancias que en tu medio laboral y en tu rutina de todos los días empiezan a anunciar nuevas etapas" << endl; break;
+         cout << "13 de Diciembre: Vas a sentir mucho entusiasmo respecto a cualquier proyecto que te invite a transmitir tus ideas" << endl; break;
+         cout << "18 de Diciembre: Podras terminar un periodo de aprendizaje importante" << endl; break;
+         cout << "19 de Diciembre: Va a ser muy importante para ti hablar tanto de tu infancia como de la de tu pareja" << endl; break;}
+
+    case 8: {if ((Dia>=23&&Mes==10)||(Dia<=22&&Mes==11)) 
+         cout << "Querido" << "Escorpio" << Dia << Mes << endl; break;
+         cout << "10 de Diciembre: Se mostrara, de manera sutil, qué tan abandonado tienes ese aspecto de tu vida y las posibilidades que estan orbitando a tu alrededor" << endl; break;
+         cout << "13 de Diciembre: La energia te favorece para reunirte con tus hermanos, planear cambios en tu ambiente y en tu realidad inmediata" << endl; break;
+         cout << "18 de Diciembre: permite que la energia te ayude a dejar ir rencores, miedos, inseguridades y cualquier resentimiento que descubras que el año dejo enterrado en tu corazon" << endl; break;
+         cout << "tu prioridad será luchar por un proyecto, negocio o plan que traiga crecimiento económico a tu vida" << endl; break;}
+
+    case 9: {if ((Dia>=23&&Mes==11)||(Dia<=21&&Mes==12)) 
+         cout << "Querido" << "Sagitario" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Se marca el momento en el que la energia universal se abre de par en par para que te reinventes" << endl; break;
+         cout << "10 de Diciembre: Una platica, un comentario o un mensaje, se puede convertir en una pista sutil que te permita descubrir hacia donde se estan encaminando las oportunidades y los cambios" << endl; break;}
+         cout << "13 de Diciembre: Te vas a llenar de motivos y energia para luchar por tus sueños" << endl; break;
+         cout << "19 de Diciembre: Se traera una propuesta menos atractiva o generar ciertas dudas respecto a tu patrimonio" << endl; break;
+         
+    case 10: {if ((Dia>=22&&Mes==12)||(Dia<=20&&Mes==1)) 
+         cout << "Querido" << "Capricornio" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Viene a darle final a este proceso de metamorfosis personal que te ayudara a alinearte con el destino" << endl; break;
+         cout << "10 de Diciembre: Debes de poner mucha atencion a las ideas, negociaciones y tramites que se empiezan a manifestar o a desarrollar" << endl; break;
+         cout << "18 de Diciembre: Puede traer un final o cambio respecto a tu vida laboral, un cambio en tu medio que implique despedirte de un proyecto" << endl; break;
+         cout << "19 de Diciembre: Puedes encontrar nuevas posibilidades para embellecerte por dentro y por fuera" << endl; break;}
+
+    case 11: {if ((Dia>=21&&Mes==1)||(Dia<=19&&Mes==2)) 
+         cout << "Querido" << "Acuario" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Vienen oportunidades e inicios que te ayudaran a dar un paso importante en la construccion del futuro dorado" << endl; break;
+         cout << "10 de Diciembre: El universo te va a hacer notar puertas que se van abriendo para que puedas traer abundancia" << endl; break;
+         cout << "18 de Diciembre: Marca el final de una etapa de vida que ya no te ofrece chispa ni entusiasmo y que quizá te estaba drenando" << endl; break;
+         cout << "19 de Diciembre: Este y el proximo mes te veas en la necesidad de darle final a una relacion o un ciclo en tu corazon, esta misma energia te favorece para sanar y liberar" << endl; break;}
+
+    case 12: {if ((Dia>=20&&Mes==2)||(Dia<=20&&Mes==3)) 
+         cout << "Querido" << "Piscis" << Dia << Mes << endl; break;
+         cout << "4 de Diciembre: Es momento de dejar ir aquello que no te ha funcionado para abrirte a un nuevo capítulo en tu vida profesional" << endl; break;
+         cout << "10 de Diciembre: Llegara una noticia o un evento que puede ser ese que estabas esperando para darle un impulso a los proyectos personales" << endl; break;
+         cout << "13 de Diciembre: Revisa el rol que juegas en tus ambientes, lo valorado o desvalorizado que te sientes en tus dinamicas" << endl; break;
+         cout << "18 de Diciembre: Es hora de culminar un proceso de mudanza, un movimiento en familia o un cambio en la dinamica de tu hogar" << endl; break;}
+
+    default: cout << "No hay, no existe" << endl; break;   
+
+    }
+    cout << endl;
+    return 0;
+
+}
